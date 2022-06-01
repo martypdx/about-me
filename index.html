@@ -6,16 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web UI Project</title>
+    <title>About Me</title>
 </head>
 
 <body>
     <header>
         <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
+        <h1>About Me</h1>
     </header>
 
     <main>
+        <section id="intro-section">
+            <h2>Intro</h2>
+            <p>Here is a blurb about me</p>
+            <p>What is my favorite animal?</p>
+            <p>
+                <label>
+                    <input type="checkbox">
+                    I accept the terms of service and pledge
+                    to donate all my free time and energy to
+                    the worship of your favorite animal.
+                </label>
+            </p>
+            <p>
+                <button disabled>Show Answer</button>
+            </p>
+        </section>
+
+        <section id="animal-section" class="hidden">
+            <h2>A Cat!</h2>
+
+            <div id="cat-container">
+                <p>
+                    <img id="cat-image" src="assets/cats/felix.png">
+                </p>
+                <p id="name-display">Felix</p>
+            </div>
+
+            <h2>Design this Cat</h2>
+            <p>
+                <label>
+                    Select an image:
+                    <select id="image-select">
+                        <option value="felix.png" selected>Felix</option>
+                        <option value="duchess.png">Duchess</option>
+                        <option value="garfield.png">Garfield</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Name: <input id="name-input" value="Felix">
+                </label>
+            </p>
+        </section>
 
     </main>
 

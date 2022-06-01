@@ -9,6 +9,7 @@
 body {
     font-family: 'Hubballi', cursive;
     background-color: var(--background);
+    padding-bottom: 30px;
 }
 
 header {
@@ -26,4 +27,27 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+.hidden {
+    display: none;
+}
+
+section {
+    max-width: 400px;
+}
+
+#cat-container {
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    background: steelblue;
+    color: white;
+    font-weight: 800;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#cat-image {
+    width: 100%;
 }
