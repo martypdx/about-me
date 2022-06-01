@@ -33,6 +33,14 @@ footer {
     display: none;
 }
 
+@media (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px;
+    }
+}
+
 section {
     max-width: 400px;
 }
